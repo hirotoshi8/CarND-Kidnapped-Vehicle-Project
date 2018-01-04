@@ -43,6 +43,7 @@ void ParticleFilter::init(double init_x, double init_y, double init_theta, doubl
 		// Store the initial particles
 		this->particles.push_back(initial_particle);
 	}
+
 }
 
 void ParticleFilter::prediction(double delta_t, double std_pos[], double velocity, double yaw_rate) {
